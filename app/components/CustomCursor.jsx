@@ -16,10 +16,10 @@ const CustomCursor = () => {
 
   return (
     <div
-    className="fixed w-8 h-8 bg-white bg-opacity-75 rounded-full pointer-events-none transition-transform duration-200 ease-in-out"
+    className="fixed w-8 h-8 bg-transparent border-2 border-white rounded-full shadow-lg pointer-events-none transition-transform duration-200 ease-in-out"
       style={{
-        left: `${position.x - 16}px`, // Center the cursor circle
-        top: `${position.y - 16}px`,  // Adjust for cursor size
+        left: `${position.x - 16}px`, 
+        top: `${position.y - 16}px`,  
       }}
     />
   );

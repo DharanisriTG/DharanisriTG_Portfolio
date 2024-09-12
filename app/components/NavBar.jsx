@@ -16,9 +16,9 @@ const Navbar = () => {
     <nav className={`bg-black text-white p-6 flex justify-between items-center text-sm ${syncopate.className}`}>
       <div className="space-x-20 flex">
         <div className="">
-          <p>
+          <Link href="/" className="cursor-none">
             [DHARANI SRI]
-          </p>
+          </Link>
           <p>
             CHENNAI, TAMILNADU
           </p>
@@ -29,13 +29,13 @@ const Navbar = () => {
         </div>
       </div>
       <div className={`space-x-24 ${syncopate.className}`}>
-        <Link href="/works" className="cursor-none hover:underline">
+        <Link href="/works" className="cursor-not-allowed hover:underline">
           [Works]
         </Link>
         <Link href="/about" className="cursor-none hover:underline">
           [About]
         </Link>
-        <Link href="/contact" className="cursor-none pr-4 hover:underline">
+        <Link href="/contact" className="cursor-not-allowed pr-4 hover:underline">
           [Contact]
         </Link>
       </div>
